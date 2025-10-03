@@ -4,6 +4,8 @@
 After updating to `xfce4-genmon-plugin 4.3.0`, the old `.rc` configuration files stopped working.  
 The panel appeared empty (`<txt></txt>`) when no VPN was present, breaking the workflow and leaving no clear network status.
 
+![Before – Empty panel](genmon-before-after/genmon-before.png)
+
 ---
 
 ## ✅ Solution
@@ -53,9 +55,15 @@ If you prefer the graphical method:
 xfce4-panel -r
 ```
 ## 🎯 Result
+With the script in place, the panel always displays the correct status:
+
 🟦 **LAN: 192.168.x.x** (blue) when no VPN
 
+![After – VPN active](genmon-before-after/genmon-after-blue.png)
+
 🟩 **VPN: 10.10.x.x** (green + VPN icon)
+
+![After – VPN active](genmon-before-after/genmon-after-green.png)
 
 **Tooltip:** shows interfaces and all IPs
 
