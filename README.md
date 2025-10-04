@@ -6,6 +6,9 @@ The panel appeared empty (`<txt></txt>`) when no VPN was present, breaking the w
 
 ![Before – Empty panel](genmon-before-after/genmon-before.png)
 
+👉 I created a custom wrapper script (with some help and adaptation) to fix the Genmon VPN/LAN status issue after the 4.3.0 update. 
+The goal was to ensure consistent panel output, with colors, tooltips, and click-to-copy functionality.
+
 ---
 
 ## ✅ Solution
